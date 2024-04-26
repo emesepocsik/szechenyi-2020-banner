@@ -1,0 +1,37 @@
+.sz2020,
+.sz2020 * {
+    box-sizing: border-box;
+}
+
+.sz2020 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 200
+}
+
+.sz2020 a {
+    display: block;
+    margin: 0;
+}
+
+.sz2020-close {
+    position: absolute;
+    bottom: 89px;
+    right: 150px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #fff;
+    padding: 5px;
+    border: solid 2px #334694
+}
+
+.sz2020-close svg {
+    display: block
+}
+
+.sz2020 img {
+    max-width: 220px;
+    display: block;
+    margin: 0;
+}
